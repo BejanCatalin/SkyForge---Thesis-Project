@@ -1,4 +1,4 @@
-import { Button, Center, Flex, Icon, Input, useToast } from "@chakra-ui/react";
+import { Button, Center, Flex, Icon, Input, Text, useToast } from "@chakra-ui/react";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { getWeatherByCity, getWeatherByLocation } from "../redux/actions";
@@ -19,8 +19,11 @@ export const Navbar = () => {
     }
 
     return (
-        <Flex p={'10px'} minH={'70px'} bg={'#d7defa'} justifyContent={'center'} flexDirection={['column', 'row']} gap={['10px', '0px']}>
-            <Center px={'10px'}>
+        <Flex p={'10px'} minH={'70px'} bg={'#69C28E'} justifyContent={'center'} flexDirection={['column', 'row']} gap={['10px', '10px']}>
+            <Flex alignItems="center">
+                <Text color="#BA0DFB" fontSize="2xl" fontWeight="extrabold" mr={400} ml={-400}>
+                    Sky Forge
+                </Text>
                 <Input
                     onKeyPress={({ key }) => { key === "Enter" ? handleChnage() : undefined }}
                     onInput={(e) => { setCity(e.target.value) }}
@@ -28,21 +31,21 @@ export const Navbar = () => {
                     borderRadius={'15px 0px 0px 15px'}
                     bg={'white'}
                     _focus={{ 'border': 'none' }}
-                    placeholder="City"
+                    placeholder="Enter a city"
                 />
                 <Button
                     onClick={handleChnage}
                     borderRadius={'0px 15px 15px 0px'}
                     color={'white'}
-                    bg={'#5e82f4'}
+                    bg={'#BA0DFB'}
                     _hover={{ 'bg': '5e82f4' }}
                 >
                     Search
                 </Button>
-            </Center>
+            </Flex>
             <Center px={'10px'}>
                 <Button
-                    bg={'#5e82f4'}
+                    bg={'#BA0DFB'}
                     _hover={{ 'bg': '5e82f4' }}
                     color={'white'}
                     w={'100%'}
@@ -50,7 +53,7 @@ export const Navbar = () => {
                     leftIcon={<Icon w={'30px'} h={'30px'} as={HiLocationMarker} />}
                     onClick={handleLocationData}
                 >
-                    Your Location Weather
+                    My Location
                 </Button>
             </Center>
         </Flex >

@@ -1,11 +1,5 @@
 <h1 align="center">Skytex Weather Forecast</h1> 
-
-
-
-
-     
-    
-  <h3 align="center"><a href="http://skynxt-manjunath-23.vercel.app/"><strong>Want to see live preview »</strong></a></h3>
+<h3 align="center"><a href="http://skynxt-manjunath-23.vercel.app/"><strong>Want to see live preview »</strong></a></h3>
   
 
 This project is about building a web application to show a weather forecast using weather API from external services [Open weather map](https://openweathermap.org/). Here you will be able to search for a specific location in the world and also it will automatically detect your current location in the beginning (for that you need to allow location) and will display all the important weather details.
@@ -92,27 +86,8 @@ npm run dev
 ### Tools used on this project
 
 - Visual Studio Code
-- Vite Js React Template
 
 <br/>
 ## References:
-
-   - Base Paper:(https://ieeexplore.ieee.org/abstract/document/6897220)
    - Open Weather API:(https://openweathermap.org/api/one-call-3)
    
-
-
-
-## Contact
-
-If you want to contact me, you can reach me through below handles.
-
-[![linkedin](https://img.shields.io/badge/Manjunath-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/a-manjunath-b0640b213//)
-
-© 2022 Manjunath
-
-
-
-## Show your support
-
-Thank you B.Bhaskara Rao Sir and Yeswanth Sir for your Support throughout the Project

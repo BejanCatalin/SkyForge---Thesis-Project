@@ -20,4 +20,5 @@ export const dateFormat = (dt) => {
     let day = myDate.toLocaleString("en-US", { weekday: "long" });
 
     return { date, day };
+    
 }

@@ -80,5 +80,6 @@ export const syncData = (city, toast) => async (dispatch) => {
         dispatch(getDataError());
         myToast(toast, "City weather data doesn't exist", "error");
     }
+    
 }
 

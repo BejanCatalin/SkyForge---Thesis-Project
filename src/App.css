@@ -27,14 +27,14 @@
     margin-top: 20px;
 }
 
-#madeByManjunath&Team {
-    color: #5e82f4;
+#madeByBejanCatalin {
+    color: #ff0000;
     font-weight: 500;
     width: 0ch;
     overflow: hidden;
     white-space: nowrap;
     animation: tagline 10s  infinite alternate;
-    border-right: 3px solid #5e82f4; 
+    border-right: 3px solid #ff0000; 
 }
 
 @keyframes tagline {

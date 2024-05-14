@@ -13,13 +13,13 @@ export const ForcastModal = ({ data }) => {
     return (
         <>
             <Box onClick={onOpen} cursor={'pointer'} mt={'10px'}>
-                <Text color={'#5e82f4'} fontWeight={500} fontSize={'27px'}>
+                <Text color={'#69C28E'} fontWeight={500} fontSize={'27px'}>
                     <Icon as={ImSun} /> {Math.round(data.temp.day)}<sup>o</sup> C
                 </Text>
-                <Text color={'#5e82f4'} fontWeight={500} fontSize={'27px'}>
+                <Text color={'#69C28E'} fontWeight={500} fontSize={'27px'}>
                     <Icon as={MdOutlineNightsStay} /> {Math.round(data.temp.night)}<sup>o</sup> C
                 </Text>
-                <Text color={'#5e82f4'} fontWeight={500} fontSize={'20px'}>
+                <Text color={'#69C28E'} fontWeight={500} fontSize={'20px'}>
                     {data.weather[0].main}
                 </Text>
             </Box>
@@ -32,7 +32,7 @@ export const ForcastModal = ({ data }) => {
 
                     <ModalBody>
                         <Box p={'10px'}>
-                            <Box p={'5px'} bg={'#5e82f4'} textAlign={'center'} borderRadius={'30px'} mb={'20px'} >
+                            <Box p={'5px'} bg={'#EA7058'} textAlign={'center'} borderRadius={'30px'} mb={'20px'} >
                                 <Text fontWeight={500} color={'white'} fontSize={'18px'}>{date}</Text>
                                 <Text fontWeight={500} color={'white'} fontSize={'18px'}>{day}</Text>
                             </Box>
@@ -40,10 +40,10 @@ export const ForcastModal = ({ data }) => {
                             <Grid templateColumns={'50% 50%'} >
                                 <Box pb={'10px'} pl={'15%'}>
                                     {['Felt Temp.', 'Humidity', 'Wind', 'Pressure', 'Day Temp.', 'Evening Temp.', 'Night Temp.', 'Max Temp.', 'Min Temp.'].map((e, i) => (
-                                        <Text key={i} color={'#5e82f4'} fontWeight={500} mt={'15px'} fontSize={'18px'} >{e}</Text>
+                                        <Text key={i} color={'#EA7058'} fontWeight={500} mt={'15px'} fontSize={'18px'} >{e}</Text>
                                     ))}
                                 </Box>
-                                <Box borderRadius={'30px'} bg={'#5e82f4'} pb={'10px'} pl={'15%'}>
+                                <Box borderRadius={'30px'} bg={'#EA7058'} pb={'10px'} pl={'15%'}>
                                     <NewText>{data.feels_like.day}<sup>o</sup> C</NewText>
                                     <NewText>{data.humidity}%</NewText>
                                     <NewText>{(data.wind_speed * 3.6).toFixed(2)} Km/h</NewText>

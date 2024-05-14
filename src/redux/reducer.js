@@ -33,4 +33,5 @@ export const reducer = (state = initState, { type, payload }) => {
         default:
             return state;
     }
+    
 }
