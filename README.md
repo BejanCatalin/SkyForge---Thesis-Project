@@ -1,4 +1,4 @@
-  This is my project fr my Bachelor Thesis.
+  This is my project for my Bachelor Thesis.
   It is a web Based Weather Forecasting Application called Sky Forge
 
 

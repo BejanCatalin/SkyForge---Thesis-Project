@@ -11,7 +11,7 @@ export const Forcast = ({ data }) => {
         <Box>
             <ForcastBox >
 
-                <Box p={'5px'} bg={'#69C28E'}>
+                <Box p={'5px'} bg={'#0495FF'}>
                     <Text fontWeight={500} color={'white'} fontSize={'18px'}>{date}</Text>
                     <Text fontWeight={500} color={'white'} fontSize={'18px'}>{day}</Text>
                 </Box>

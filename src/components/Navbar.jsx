@@ -19,9 +19,9 @@ export const Navbar = () => {
     }
 
     return (
-        <Flex p={'10px'} minH={'70px'} bg={'#69C28E'} justifyContent={'center'} flexDirection={['column', 'row']} gap={['10px', '10px']}>
+        <Flex p={'10px'} minH={'70px'} bg={'#0495FF'} justifyContent={'center'} flexDirection={['column', 'row']} gap={['10px', '10px']}>
             <Flex alignItems="center">
-                <Text color="#BA0DFB" fontSize="2xl" fontWeight="extrabold" mr={400} ml={-400}>
+                <Text color="white" fontSize="2xl" fontWeight="extrabold" mr={400} ml={-400}>
                     Sky Forge
                 </Text>
                 <Input

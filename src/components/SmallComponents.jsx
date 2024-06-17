@@ -2,7 +2,7 @@ import { Box, Text } from "@chakra-ui/react";
 
 export const ForcastBox = ({ children }) => {
     return (
-        <Box className="zoom" textAlign={'center'} overflow={'hidden'} borderRadius={'30px'} shadow={'0px 0px 30px 6px #69C28E'} h={'200px'}>
+        <Box className="zoom" textAlign={'center'} overflow={'hidden'} borderRadius={'30px'} shadow={'0px 0px 30px 6px #0495FF'} h={'200px'}>
             {children}
         </Box>
     );
@@ -10,7 +10,7 @@ export const ForcastBox = ({ children }) => {
 
 export const Newbox = ({ children }) => {
     return (
-        <Box className="zoom" overflow={'hidden'} shadow={'0px 0px 30px 6px #69C28E'} borderRadius={'30px'} h={'300px'}>
+        <Box className="zoom" overflow={'hidden'} shadow={'0px 0px 30px 6px #0495FF'} borderRadius={'30px'} h={'300px'}>
             {children}
         </Box>
     );

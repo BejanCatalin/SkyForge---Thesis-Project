@@ -38,7 +38,7 @@ export const Deatils = () => {
             <Box maxW={'1400px'} m={'20px auto 5px'} p={'20px'} minH={'550px'}>
                 <Grid gridTemplateColumns={['100%', 'repeat(2, 1fr)', 'repeat(2, 1fr)', '30% 27.5% 38%']} gap={'30px'}>
                     <Newbox>
-                        <Box color={'#5e82f4'} p={'20px'} textAlign={'center'}>
+                        <Box color={'#0495FF'} p={'20px'} textAlign={'center'}>
                             <Flex justify={'end'}>
                                 <Icon
                                     onClick={handleSyncData}
@@ -57,10 +57,10 @@ export const Deatils = () => {
                         <Grid templateColumns={'50% 50%'} h={'100%'} p={'8px'}>
                             <Box py={'10px'} pl={'15%'}>
                                 {['Felt Temp.', 'Humidity', 'Wind', 'Visibility', 'Max Temp.', 'Min Temp.'].map((e, i) => (
-                                    <Text key={i} color={'#5e82f4'} fontWeight={500} mt={'15px'} fontSize={'18px'} >{e}</Text>
+                                    <Text key={i} color={'#0495FF'} fontWeight={500} mt={'15px'} fontSize={'18px'} >{e}</Text>
                                 ))}
                             </Box>
-                            <Box borderRadius={'30px'} bg={'#5e82f4'} py={'10px'} pl={'15%'}>
+                            <Box borderRadius={'30px'} bg={'#0495FF'} py={'10px'} pl={'15%'}>
                                 <NewText>{celsius(data.main.feels_like)}<sup>o</sup> C</NewText>
                                 <NewText>{data.main.humidity}%</NewText>
                                 <NewText>{(data.wind.speed * 3.6).toFixed(2)} Km/h</NewText>
